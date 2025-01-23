@@ -1,7 +1,7 @@
-import { LiquidityManager } from "./src/addLiquidity";
+import { LiquidityManager } from "./addLiquidity";
 import { ethers } from 'ethers'
-import { AddLiquidityParams, PoolData, PoolInfo } from "./src/interfaces/AddLiquidityParams";
-import { Helpers } from "./src/helpers/helpers";
+import { AddLiquidityParams, PoolData, PoolInfo } from "./interfaces/AddLiquidityParams";
+import { Helpers } from "./helpers/helpers";
 import { nearestUsableTick } from "v2-sdk/sdks/v2-sdk/src";
 import { Token } from "v2-sdk/sdks/v2-sdk/src/core";
 
